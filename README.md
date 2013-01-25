@@ -23,11 +23,11 @@ Here I will show you how to implement it to your web page.
     <script type="text/javascript" src="js/iutil.js"></script>
     <script type="text/javascript" src="js/fisheye.js"></script>
     <!--css-->
-    <link href="css/dock.css" rel="stylesheet" type="text/css" />
+    <link href="css/dock.css" rel="stylesheet" type="text/css">
     ```
 
 3. Configuration
-    Don't forget to add the following code to anywhere within the <body> tag:
+    Don't forget to add the following code to anywhere within the body tag:
     ```html
     <script type="text/javascript">
         $(document).ready(function() {
