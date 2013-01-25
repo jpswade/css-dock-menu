@@ -28,8 +28,8 @@ jQuery.iUtil = {
         }
         var el = e;
         while (el){
-            x += el.offsetLeft + (el.currentStyle && !jQuery.browser.opera ?parseInt(el.currentStyle.borderLeftWidth)||0:0);
-            y += el.offsetTop + (el.currentStyle && !jQuery.browser.opera ?parseInt(el.currentStyle.borderTopWidth)||0:0);
+            x += el.offsetLeft + (el.currentStyle ? parseInt(el.currentStyle.borderLeftWidth)||0:0);
+            y += el.offsetTop + (el.currentStyle ? parseInt(el.currentStyle.borderTopWidth)||0:0);
             el = el.offsetParent;
         }
         el = e;
