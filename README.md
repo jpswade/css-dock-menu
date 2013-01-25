@@ -70,3 +70,4 @@ There may be some minor rendering issues with Safari.
 ##Resources
 
 * [Original Tutorial](http://ndesign-studio.com/blog/css-dock-menu)
+* [Original Source](http://interface.eyecon.ro/download)
