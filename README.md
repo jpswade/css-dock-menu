@@ -18,19 +18,13 @@ Here I will show you how to implement it to your web page.
     In between the HTML head tag, add the following code
 
     ```html
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/interface.js"></script>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <!--[if lt IE 7]>
-    <style type="text/css">
-       .dock img { behavior: url(iepngfix.htc) }
-       </style>
-    <![endif]–>
+    <!--javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/iutil.js"></script>
+    <script type="text/javascript" src="js/fisheye.js"></script>
+    <!--css-->
+    <link href="css/dock.css" rel="stylesheet" type="text/css" />
     ```
-
-    The first part is the Javascript.
-    The second part is CSS stylesheet.
-    The last part is the PNG hack for IE 6.
 
 3. Configuration
     Don't forget to add the following code to anywhere within the <body> tag:
@@ -48,7 +42,7 @@ Here I will show you how to implement it to your web page.
                 valign: 'bottom',
                 halign : 'center'
             }
-            )};
+        )};
     </script>
     ```
 
