@@ -1,5 +1,7 @@
 #CSS Dock Menu
 
+##Tutorial
+
 If you are a big Mac fan, you will love this CSS dock menu.
 
 ![CSS dock menu screenshot](http://i.imgur.com/5VS6Z4d.jpg)
@@ -71,3 +73,4 @@ There may be some minor rendering issues with Safari.
 
 * [Original Tutorial](http://ndesign-studio.com/blog/css-dock-menu)
 * [Original Source](http://interface.eyecon.ro/download)
+* [Demo](http://jsbin.com/ezomiq/1) (jsbin)
