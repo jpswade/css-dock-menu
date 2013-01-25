@@ -13,7 +13,7 @@ Here I will show you how to implement it to your web page.
     Download the CSS dock menu zip package.
 
 2. Insert Code
-    In between the HTML <head> tag, add the following code
+    In between the HTML head tag, add the following code
 
     ```html
     <script type="text/javascript" src="js/jquery.js"></script>
@@ -54,12 +54,12 @@ Here I will show you how to implement it to your web page.
     To add menu item to the top dock (note: span tag is after the img tag):
 
     ```html
-    <a class="dock-item" href="#"><img src="images/home.png" alt="home" /><span>Home</span></a> 
+    <a class="dock-item" href="#"><img src="images/home.png" alt="home"><span>Home</span></a> 
     ```
     To add menu item to the bottom dock (note: span tag is before the img tag):
 
     ```html
-    <a class="dock-item2" href="#"><span>Home</span><img src="images/home.png" alt="home" /></a>
+    <a class="dock-item2" href="#"><span>Home</span><img src="images/home.png" alt="home"></a>
     ```
 
 ##Browser Compatibility
